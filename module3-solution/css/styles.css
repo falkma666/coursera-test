@@ -22,7 +22,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   color: black;
-  font-size: 1.5em;
+  //font-size: 1.5em;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
@@ -59,9 +59,26 @@ body {
   margin-top: -50px;
 }
 
-.navbar-header button.navbar-toggle:hover{
+/*.icon-bar {
+    border: 1px solid red;
+}*/
+
+/*.navbar-header button.navbar-toggle:hover{
   border: 1px solid white;
   background-color: gray;
+}*/
+
+.icon-bar:hover,
+.icon-bar:focus{
+  border: 3px solid green;
+}
+
+.navbar-header .icon-bar:hover { border: 1px solid #feeea7; 
+
+#header-nav button:hover,
+#header-nav button:focus {
+    background-color: #E09B00;
+    border: 1px solid white;
 }
 
 /* END HEADER */
