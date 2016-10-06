@@ -73,7 +73,7 @@ body {
   border: 3px solid green;
 }
 
-.navbar-header .icon-bar:hover { border: 1px solid #feeea7; 
+.navbar-header .icon-bar: focus{ border: 1px solid #feeea7; }
 
 #header-nav button:hover,
 #header-nav button:focus {
